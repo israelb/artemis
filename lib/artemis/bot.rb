@@ -1,8 +1,9 @@
+require 'active_support/dependencies'
 require 'artemis/bot/version'
 require 'artemis/bot/message_request'
 require 'artemis/bot/input'
-require "olimpo"
-require 'active_support/dependencies'
+require 'artemis/services/object_to_hash'
+require "olimpo/olimpo"
 require 'httmultiparty'
 require "pry"
 
